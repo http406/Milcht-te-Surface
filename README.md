@@ -8,18 +8,10 @@ The **Milchtüte Surface** (German for "milk carton surface") is a parametric su
 ### **Understanding the Equation Used in the Code**
 The parametric equation used in the **Three.js** code is:
 
-\[
-x = k \cdot (1 - u) \cdot \cos(v)
-\]
-\[
-y = k \cdot (1 - u) \cdot \sin(v)
-\]
-\[
-z = 0.5 \cdot u
-\]
+![Image](https://github.com/user-attachments/assets/eed837b8-3dc6-4ad8-9891-d4f55afda578)
 
 Where:
-- \( u \) varies from \( -0.3\pi \) to \( 1.7π \) (reduced range for a smoother shape).
+- \( u \) varies from \( −0.3π \) to \( 1.7π \) (reduced range for a smoother shape).
 - \( v \) varies from −π to π (circular range).
 - \( k \) is a scaling factor (set to 0.5).
 
